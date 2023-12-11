@@ -1,0 +1,54 @@
+{
+    "name": "Kuri",
+    "version": "0.0.1",
+    "description": "iMaster Test ",
+    "manifest_version": 3,
+    "author": "XQuisite AI",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Product"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "tabs",
+        "webRequest",
+        "storage",
+        "activeTab",
+        "scripting"
+    ],
+    "content_scripts": [
+        {
+            "world": "MAIN",
+            "matches": ["file://*/*", "http://*/*", "https://*/*"],
+            "js": ["script.js"],
+            "run_at": "document_end"
+        },
+        {
+            "world": "ISOLATED",
+            "matches": ["http://moodle.waski.xyz/moodle/course/view.php?id=53"],
+            "js": ["jquery-3.7.1.min.js", "bootstrap.bundle.min.js", "course.js"],
+            "run_at": "document_end"
+        },
+        {
+            "world": "ISOLATED",
+            "matches": ["http://moodle.waski.xyz/moodle/mod/book/view.php?id=109"],
+            "js": ["jquery-3.7.1.min.js", "bootstrap.bundle.min.js", "book.js"],
+            "run_at": "document_end"
+        },
+        {
+            "world": "ISOLATED",
+            "matches": ["http://moodle.waski.xyz/moodle/my/"],
+            "js": ["jquery-3.7.1.min.js", "bootstrap.bundle.min.js", "apexcharts.js", "dashboard.js"],
+            "run_at": "document_end"
+        }
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": ["script.js"],
+            "matches": ["<all_urls>"]
+        }
+    ],
+    "host_permissions": ["*://*/*"]
+}
