@@ -10,6 +10,6 @@
 7. Choose the folder of downloaded/cloned git
 8. Toggle On activation (on bottom-right of the extension card)
 
-Additional if you want to run the extension in Incognito Mode
+# Additional Installation (Incognito)
 9. Click Detail button (in the extension card)
 10. Toggle On Allow in Incognito
