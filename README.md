@@ -1,4 +1,5 @@
-# kuri-extension
+# Kuri Google Chrome Extension
+Base URL: http://moodle.waski.xyz/moodle/
 
 # Installation
 1. Open Google Chrome
