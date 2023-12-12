@@ -443,19 +443,19 @@ function renderCourse() {
         </div>
         </div>
         </li>
-        <li class="activity activity-wrapper assign modtype_assign  hasinfo " id="module-98" data-for="cmitem" data-id="98" data-indexed="true">
-        <div class="activity-item " data-activityname="Alur program menggunakan text (algoritma)">
+        <li class="activity activity-wrapper quiz modtype_quiz  hasinfo " id="module-127" data-for="cmitem" data-id="127" data-indexed="true">
+        <div class="activity-item " data-activityname="Quiz Alur Logika Pemrograman Komputer">
         
         <div class="activity-basis d-flex align-items-center">
         <div class="d-flex flex-column flex-md-row w-100 align-self-start">
         <div class="activity-instance d-flex flex-column">
-        <div class="activitytitle media  modtype_assign position-relative align-self-start">
+        <div class="activitytitle media  modtype_quiz position-relative align-self-start">
         <div class="activityiconcontainer assessment courseicon align-self-start mr-3">
-        <img src="http://moodle.waski.xyz/moodle/theme/image.php/boost/assign/1700722742/monologo?filtericon=1" class="activityicon " alt="Assignment icon">
+        <img src="http://moodle.waski.xyz/moodle/theme/image.php/boost/quiz/1700722742/monologo?filtericon=1" class="activityicon " alt="Quiz icon">
         </div>
         <div class="media-body align-self-center">
         <div class="activityname">
-        <a href="http://moodle.waski.xyz/moodle/mod/assign/view.php?id=111" class=" aalink stretched-link" onclick="">        <span class="instancename">Alur program menggunakan text (algoritma) <span class="accesshide "> Assignment</span></span>    </a>
+        <a href="http://moodle.waski.xyz/moodle/mod/quiz/view.php?id=128" class=" aalink stretched-link" onclick="">        <span class="instancename">Quiz Alur Logika Pemrograman Komputer </span>    </a>
         
         </div>
         </div>
@@ -463,81 +463,7 @@ function renderCourse() {
         </div>
         
         <div class="activity-info mt-1 mt-md-0">
-        <div data-region="activity-information" data-activityname="Alur program menggunakan text (algoritma)" class="activity-information">
-        <div data-region="completion-info">
-        <button class="btn btn-outline-secondary btn-sm text-nowrap" disabled="">
-        Mark as done
-        </button>
-        
-        </div>
-        </div>
-        </div>
-        </div>
-        
-        </div>
-        
-        <div class="description">
-        </div>
-        </div>
-        </li>
-        <li class="activity activity-wrapper assign modtype_assign  hasinfo " id="module-108" data-for="cmitem" data-id="108" data-indexed="true">
-        <div class="activity-item " data-activityname="Program menggunakan simbol (flowchart)">
-        
-        <div class="activity-basis d-flex align-items-center">
-        <div class="d-flex flex-column flex-md-row w-100 align-self-start">
-        <div class="activity-instance d-flex flex-column">
-        <div class="activitytitle media  modtype_assign position-relative align-self-start">
-        <div class="activityiconcontainer assessment courseicon align-self-start mr-3">
-        <img src="http://moodle.waski.xyz/moodle/theme/image.php/boost/assign/1700722742/monologo?filtericon=1" class="activityicon " alt="Assignment icon">
-        </div>
-        <div class="media-body align-self-center">
-        <div class="activityname">
-        <a href="http://moodle.waski.xyz/moodle/mod/assign/view.php?id=108" class=" aalink stretched-link" onclick="">        <span class="instancename">Program menggunakan simbol (flowchart) <span class="accesshide "> Assignment</span></span>    </a>
-        
-        </div>
-        </div>
-        </div>
-        </div>
-        
-        <div class="activity-info mt-1 mt-md-0">
-        <div data-region="activity-information" data-activityname="Program menggunakan simbol (flowchart)" class="activity-information">
-        <div data-region="completion-info">
-        <button class="btn btn-outline-secondary btn-sm text-nowrap" disabled="">
-        Mark as done
-        </button>
-        
-        </div>
-        </div>
-        </div>
-        </div>
-        
-        </div>
-        
-        <div class="description">
-        </div>
-        </div>
-        </li>
-        <li class="activity activity-wrapper assign modtype_assign  hasinfo " id="module-110" data-for="cmitem" data-id="110" data-indexed="true">
-        <div class="activity-item " data-activityname="Program menggunakan pseudocode">
-        
-        <div class="activity-basis d-flex align-items-center">
-        <div class="d-flex flex-column flex-md-row w-100 align-self-start">
-        <div class="activity-instance d-flex flex-column">
-        <div class="activitytitle media  modtype_assign position-relative align-self-start">
-        <div class="activityiconcontainer assessment courseicon align-self-start mr-3">
-        <img src="http://moodle.waski.xyz/moodle/theme/image.php/boost/assign/1700722742/monologo?filtericon=1" class="activityicon " alt="Assignment icon">
-        </div>
-        <div class="media-body align-self-center">
-        <div class="activityname">
-        <a href="http://moodle.waski.xyz/moodle/mod/assign/view.php?id=110" class=" aalink stretched-link" onclick="">        <span class="instancename">Program menggunakan pseudocode <span class="accesshide "> Assignment</span></span>    </a>
-        
-        </div>
-        </div>
-        </div>
-        </div>
-        
-        <div class="activity-info mt-1 mt-md-0">
-        <div data-region="activity-information" data-activityname="Program menggunakan pseudocode" class="activity-information">
+        <div data-region="activity-information" data-activityname="Quiz Alur Logika Pemrograman Komputer" class="activity-information">
         <div data-region="completion-info">
         <button class="btn btn-outline-secondary btn-sm text-nowrap" disabled="">
         Mark as done

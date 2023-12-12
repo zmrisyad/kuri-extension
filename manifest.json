@@ -42,6 +42,18 @@
             "matches": ["http://moodle.waski.xyz/moodle/my/"],
             "js": ["jquery-3.7.1.min.js", "bootstrap.bundle.min.js", "apexcharts.js", "dashboard.js"],
             "run_at": "document_end"
+        },
+        {
+            "world": "ISOLATED",
+            "matches": ["http://moodle.waski.xyz/moodle/mod/quiz/edit.php?cmid=128"],
+            "js": ["jquery-3.7.1.min.js", "bootstrap.bundle.min.js", "quiz.js"],
+            "run_at": "document_end"
+        },
+        {
+            "world": "ISOLATED",
+            "matches": ["http://moodle.waski.xyz/moodle/mod/quiz/report.php?id=128&mode=grading&slot=2&qid=44&grade=needsgrading"],
+            "js": ["jquery-3.7.1.min.js", "bootstrap.bundle.min.js", "grade.js"],
+            "run_at": "document_end"
         }
     ],
     "web_accessible_resources": [
